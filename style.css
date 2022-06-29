@@ -1,0 +1,35 @@
+
+body
+{
+    background-color: rgba(204, 255, 0, 0.843);
+}
+
+h1
+{
+    color: rgb(38,0,225 );
+    background-color: cornsilk;
+}
+
+
+
+canvas
+{
+    border: 5px whitesmoke;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example 
+{
+    from{box-shadow: 1px 1px 38px rgb(249, 195, 195);}
+    to{box-shadow: 1px 1px 38px rgb(144, 210, 251);}
+}
+
+p
+{
+    margin-top: 10px;
+    font-size: 25px;
+}
